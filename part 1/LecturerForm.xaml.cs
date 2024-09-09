@@ -49,7 +49,7 @@ namespace CMCS
             // Confirmation message
             MessageBox.Show($"Claim submitted! \nLecturer: {lecturerName} {surname} \nDate: {date} \nHours Worked: {hoursWorked} \nHourly Rate: {hourlyRate} \nClaim Amount: {claimAmount}");
 
-            // Clear form fields
+          
             LecturerName.Clear();
             LecturerSurname.Clear();
             HoursWorked.Clear();
@@ -59,7 +59,7 @@ namespace CMCS
 
         private void UploadFile_Click(object sender, RoutedEventArgs e)
         {
-            // Logic for file upload (can use OpenFileDialog here)
+         
             MessageBox.Show("File Uploaded Successfully!");
         }
 
