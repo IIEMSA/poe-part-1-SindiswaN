@@ -7,7 +7,7 @@
         <!-- Title -->
         <Label Content="Welcome to CMCS" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Foreground="#2E86C1" Margin="0,20,0,0"/>
 
-        <!-- Buttons for navigation with improved style -->
+        <!-- Buttons for navigation  -->
         <Button Content="Submit Claim" Width="150" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#2980B9" Foreground="White" FontSize="16" Margin="0,159,0,0" Click="SubmitClaim_Click" Style="{StaticResource RoundedButtonStyle}"/>
         <Button Content="View Claims" Width="150" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#2980B9" Foreground="White" FontSize="16" Margin="0,204,0,0" Click="ViewClaims_Click" Style="{StaticResource RoundedButtonStyle}"/>
         <Button Content="Coordinator Approval" Width="180" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#2980B9" Foreground="White" FontSize="16" Margin="0,249,0,0" Click="CoordinatorView_Click" Style="{StaticResource RoundedButtonStyle}"/>
