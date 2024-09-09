@@ -6,8 +6,7 @@ namespace CMCS
     {
         public MainWindow()
         {
-            InitializeComponent(); // Make sure this line exists
-        }
+            InitializeComponent(); 
 
         // Event handlers for buttons
         private void SubmitClaim_Click(object sender, RoutedEventArgs e)
